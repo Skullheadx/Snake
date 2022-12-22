@@ -2,7 +2,7 @@ from setup import *
 
 
 class Player:
-    move_time = 400  # ms
+    move_time = 300  # ms
     min_time = 100
     time_decrease = 4
 
