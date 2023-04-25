@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-LENGTH, HEIGHT = 20,20
+LENGTH, HEIGHT = 20, 20
 side_length = 640 / LENGTH
 x_unit = pygame.Vector2(side_length, 0)
 y_unit = pygame.Vector2(0, side_length)

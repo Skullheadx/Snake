@@ -28,5 +28,5 @@ class Button(Label):
 
     def get_input(self, event):
         if event.type == pygame.MOUSEBUTTONUP:
-            if event.button == 1:  # Left Mouse Button
+            if event.button == 1 and self.get_rect().collidepoint(pygame.mouse.get_pos()): # Left Mouse Button
                 self.activated = True
